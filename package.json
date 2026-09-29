@@ -1,47 +1,49 @@
 {
   "name": "quantum-pi-network",
   "version": "1.0.0",
-  "description": "A cutting-edge blockchain project aimed at launching the Quantum Pi mainnet, featuring Pi Coin as a stable digital currency valued at $314159.",
+  "description": "Experimental quantum/blockchain research project with Pi ecosystem integration goals.",
   "main": "src/main/index.js",
   "scripts": {
     "start": "node src/main/index.js",
     "test": "jest",
     "deploy": "node scripts/deploy.js",
     "lint": "eslint .",
-    "format": "prettier --write '**/*.{js,json,md}'",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
     "build": "webpack --config webpack.config.js",
     "dev": "nodemon src/main/index.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "web3": "^1.5.0",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "quantum-sdk": "^1.0.0",
-    "axios": "^0.21.1", // Added for HTTP requests
-    "cors": "^2.8.5" // Added for handling CORS
+    "web3": "^1.5.0"
   },
   "devDependencies": {
-    "jest": "^26.6.0",
     "eslint": "^7.11.0",
-    "prettier": "^2.2.1", // Added for code formatting
-    "nodemon": "^2.0.7", // Added for automatic server restarts
-    "webpack": "^5.24.2", // Added for module bundling
-    "webpack-cli": "^4.5.0" // Added for CLI commands
+    "jest": "^26.6.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
   },
   "author": "KOSASIH",
   "license": "MIT and PiOS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KOSASIH/quantum-pi-network.git"
+    "url": "https://github.com/elon00/quantum-pi-network999.git"
   },
   "keywords": [
     "blockchain",
     "cryptocurrency",
     "quantum",
-    "pi",
-    "stablecoin"
+    "pi"
   ],
   "bugs": {
-    "url": "https://github.com/KOSASIH/quantum-pi-network/issues"
+    "url": "https://github.com/elon00/quantum-pi-network999/issues"
+  },
+  "engines": {
+    "node": ">=18"
   }
-  }
+}
